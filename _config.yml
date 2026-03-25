@@ -1,4 +1,5 @@
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal
+logo: /assets/img/logo_updated.png
 plugins:
 - jekyll-remote-theme
 title: Project ShoeBot

@@ -3,6 +3,7 @@
 Gem::Specification.new do |s|
   s.name          = "tyler-bartunek"
   s.version       = "0.1.0"
+  s.license       = "CC0-1.0"
   s.authors       = ["Tyler Bartunek"]
   s.email         = ["tylerbartunek@gmail.com"]
   s.homepage      = "https://tyler-bartunek.github.io"
