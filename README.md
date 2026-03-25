@@ -12,7 +12,8 @@ The guiding philosophy is that if you have a box, soldering iron, basic fastener
 present it will fall slightly short of this noble goal, but efforts will be made to get back in alignment.
 
 [Link to the repository](https://www.github.com/tyler-bartunek/ShoeBot/)
-[Link to the wiki]([project wiki](https://www.github.com/tyler-bartunek/ShoeBot/)
+
+[Link to the wiki](https://www.github.com/tyler-bartunek/ShoeBot/wiki)
 
 ## Prior work
 Coming soon!
