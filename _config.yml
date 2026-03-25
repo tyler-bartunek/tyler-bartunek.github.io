@@ -1,3 +1,7 @@
 theme: jekyll-theme-minimal
+plugins:
+- jekyll-remote-theme
 title: Project ShoeBot
 description: Learning by building
+
+
