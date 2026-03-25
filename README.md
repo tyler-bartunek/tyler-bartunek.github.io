@@ -1,5 +1,3 @@
-# Project ShoeBot
-
 ## Welcome!
 This page does (or will) feature selected work from my academic, professional, and project work.
 
