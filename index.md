@@ -18,4 +18,15 @@ present it will fall slightly short of this noble goal, but efforts will be made
 [Link to the wiki](https://www.github.com/tyler-bartunek/ShoeBot/wiki)
 
 ## Prior work
-Coming soon!
+
+### Published research:
+[Velostat (Thesis research)](./pages/velostat.html)
+
+[U-COVER](./pages/ucover.html)
+
+[Everesting (volunteer, acknowledged)](./pages/everesting.html)
+
+### Course Projects
+[Haptic Drones](./pages/hivemind.html)
+
+
