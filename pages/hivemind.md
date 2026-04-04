@@ -55,27 +55,27 @@ One possible design under consideration would place motors onto thimbles connect
 
 ### Related Work/Citations
 1. D. Kim and P. Y. Oh, “Aerial manipulation using a human-embodied
-drone interface,” in __2022 IEEE International Conference on Advanced
-Robotics and Its Social Impacts (ARSO)__, pp. 1–7, 2022.
+drone interface,” in _2022 IEEE International Conference on Advanced
+Robotics and Its Social Impacts (ARSO)_, pp. 1–7, 2022.
 2. J. Cacace, A. Finzi, V. Lippiello, M. Furci, N. Mimmo, and L. Marconi,
 “A control architecture for multiple drones operated via multimodal interaction
-in search & rescue mission,” __2016 IEEE International Symposium
-on Safety, Security, and Rescue Robotics (SSRR)__, pp. 233–239, 2016.
+in search & rescue mission,” _2016 IEEE International Symposium
+on Safety, Security, and Rescue Robotics (SSRR)_, pp. 233–239, 2016.
 3. A. Ollero, M. Tognon, A. Suarez, D. Lee, and A. Franchi, “Past, present,
-and future of aerial robotic manipulators,” __IEEE Transactions on Robotics__,
+and future of aerial robotic manipulators,” _IEEE Transactions on Robotics_,
 vol. 38, no. 1, pp. 626–645, 2022.
 4. M. Macchini, T. Havy, A. Weber, F. Schiano, and D. Floreano, “Handworn
-haptic interface for drone teleoperation,” in __2020 IEEE International
-Conference on Robotics and Automation (ICRA)__, pp. 10212–10218, 2020.
+haptic interface for drone teleoperation,” in _2020 IEEE International
+Conference on Robotics and Automation (ICRA)_, pp. 10212–10218, 2020.
 5. M. Macchini, J. Frogg, F. Schiano, and D. Floreano, “Does spontaneous
 motion lead to intuitive body-machine interfaces? a fitness study of
-different body segments for wearable telerobotics,” in __2022 31st IEEE
+different body segments for wearable telerobotics,” in _2022 31st IEEE
 International Conference on Robot and Human Interactive Communication
-(RO-MAN)__, pp. 115–121, 2022.
+(RO-MAN)_, pp. 115–121, 2022.
 6. E. Tsykunov, R. Agishev, R. Ibrahimov, L. Labazanova, A. Tleugazy, and
 D. Tsetserukou, “Swarmtouch: Guiding a swarm of micro-quadrotors with
-impedance control using a wearable tactile interface,” __IEEE Transactions
-on Haptics__, vol. 12, no. 3, pp. 363–374, 2019.
+impedance control using a wearable tactile interface,” _IEEE Transactions
+on Haptics_, vol. 12, no. 3, pp. 363–374, 2019.
 
 **Pending: work by supervising professor presented in 2026 World Haptics**
 

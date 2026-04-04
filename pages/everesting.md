@@ -3,7 +3,7 @@ layout: default
 ---
 
 ## Using ML to Tackle a Cycling Challenge
-**images coming at a future date**
+**Images coming at a future date**
 
 ### Overview
 "Everesting" is a cycling challenge that "rose to prominence" (a little mountain-based humor) during the pandemic, and entails repeatedly riding a trail until your overall elevation gain equals that of Everest above sea level (8848 m). As an undergraduate student, I had the opportunity to volunteer on a research project that involved scraping publicly available data and using machine learning to find if there is a best way to approach this challenge based on your relative experience as a cyclist. 
@@ -31,7 +31,7 @@ Now armed with a full dataset, I did a little digging around to see if there wer
 The principal investigator took it from there, and deployed the gaussian mixture models as well as other forms of analysis to yield the conclusions outlined in their report. 
 
 ### Published in
-[Nature Scientific Reports][https://www.nature.com/articles/s41598-023-29435-w]
+[Nature Scientific Reports](https://www.nature.com/articles/s41598-023-29435-w)
 
 
 [Return Home](../index.html)

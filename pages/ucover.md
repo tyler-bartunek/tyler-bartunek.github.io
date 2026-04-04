@@ -4,7 +4,7 @@ layout: default
 
 ## Motion-Capture-Based Ergonomics Analysis of Containment Hood 
 
-__**Apologies, images are not available for this project at this time.**__
+_**Apologies, images are not available for this project at this time.**_
 
 ### Overview
 In the wake of the global pandemic, an important question for many research teams was how to better protect medical personnel from patient aerosols including airborne pathogens. Researchers at the University of Utah began developing the U-COVER (referred to from this point forward as 'the hood'), a portable containment hood designed to provide such protection. The aim of the study was to assess the user experience with this hood, from ergonomics to how users felt about using it. Subjective measures were captured with surveys such as the NASA TLX and system usability survey (SUS). 
