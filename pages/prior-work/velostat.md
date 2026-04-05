@@ -26,6 +26,3 @@ This material has been used to some success in similar sensing setups, with some
 [Thesis (ProQuest)](https://www.proquest.com/openview/b717fe760f838be9e6eff8ef84b56520/)
 
 ### Related Work/Citations
-
-
-[Return Home](../index.html)

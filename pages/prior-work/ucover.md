@@ -35,6 +35,3 @@ As a researcher, it was a great project highlighting the importance of collabora
 
 ### Published in
 [Ergonomics in Design](https://journals.sagepub.com/doi/abs/10.1177/10648046261429139)
-
-
-[Return Home](../index.html)

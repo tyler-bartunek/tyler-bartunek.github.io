@@ -32,6 +32,3 @@ The principal investigator took it from there, and deployed the gaussian mixture
 
 ### Published in
 [Nature Scientific Reports](https://www.nature.com/articles/s41598-023-29435-w)
-
-
-[Return Home](../index.html)

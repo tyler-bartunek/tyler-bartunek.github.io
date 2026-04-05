@@ -78,6 +78,3 @@ impedance control using a wearable tactile interface,” _IEEE Transactions
 on Haptics_, vol. 12, no. 3, pp. 363–374, 2019.
 
 **Pending: work by supervising professor presented in 2026 World Haptics**
-
-
-[Return Home](../index.html)
