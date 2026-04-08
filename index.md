@@ -12,14 +12,13 @@ But most prominent among all work presented will be the project work with the Sh
 ## More on the ShoeBot
 Picture this: a framework that allows you to use a 3D printer and raspberry pi to take a leftover shoebox and upcycle it into a mobile robot.
 
-With me so far? Did you picture your mobile robot having wheels or legs? Under the ShoeBot system, it doesn't matter. You can freely switch between the two, provided you have the right modules printed out.
+With me so far? 
 
-A standardized 3D-printable rail mounting system allows for the creation of completely reconfigurable mobile robots, with pre-designed modules intended to be buildable with nothing more than a 3D printer, screwdriver, and a soldering iron. The documentation and associated files for this project are hosted on a github repository with associated wiki, both of which are linked below.
+Did you picture your mobile robot having wheels or legs? 
 
-Additional custom hardware files are included for a wiring harness for the SPI bus connections that employs a 74HC595 shift register to reduce the number of CS lines. While the ROS code under development assumes this board is present at the heart of the ShoeBot architecture, you are free to develop your own equivalent or modify the spi_driver code to suit your purposes.
+Under the ShoeBot system, it doesn't matter. You can freely switch between the two, provided you have the right modules printed out.
 
-The guiding philosophy is that if you have a box, soldering iron, basic fasteners, and a 3D printer then you should be able to put this system together. Now, at 
-present it will fall slightly short of this noble goal, but efforts will be made to get back in alignment.
+For now, project progress is being hosted on a github repository with corresponding wiki page. These are linked below for your convenience to explore, though as the project and this website mature, additional content will appear on this website too.
 
 [Link to the repository](https://www.github.com/tyler-bartunek/ShoeBot/)
 

@@ -4,6 +4,11 @@ layout: default
 
 ## Haptic Interface for Drone Swarm Control
 
+<figure style="text-align: center;">
+<img src="{{ '/assets/img/hive_mind/hive_mind_evaluation_ros.png' | relative_url }}" alt="directional cues" style="width: 75%;">
+<figcaption style="font-size: 0.85em; color: #666;">Using the interface to control a simulated drone swarm.</figcaption>
+</figure>
+
 ### Overview
 In this class-based team project, I co-developed a tilt-based controller for quadcopter drones that provides haptic feedback to aid the user with obstacle avoidance. We evaluated how interpretable the provided cues were with a small pilot group of our classmates, and my partner built a ROS simulation where it was used to guide three crazyflie drones through an obstacle course.
 
@@ -13,7 +18,7 @@ When one thinks about quadcopter drones, they likely envision people using such 
 ### The HIVE MIND: Proposed Prototype
 The research into finding intuitive user interfaces as well as incorporating haptic feedback, at the time of this project, were limited to single-device systems. This project sought to extend this work into "drone swarms", or multi-drone systems. Another objective was to create a device that could simply be picked up, as opposed to the glove in prior work that has to be worn. 
 
-Enter the HIVE MIND, or **H**andheld **I**nteractive **V**ibrotactil**e** **M**anipulandum for **I**nterfacing with **N**umerous **D**rones, pictured below.
+Enter the HIVE MIND, or **H**andheld **I**nteractive **V**ibrotactil**e** **M**anipulandum for **I**nterfacing with **N**umerous **D**rones, pictured below. Yes, the name was my idea.
 
 <div style="text-align: center;">
 <img src="{{ '/assets/img/hive_mind/hive_mind_front.png' | relative_url }}" alt="HIVEMIND" style="width: 50%;"/>
@@ -22,14 +27,14 @@ Enter the HIVE MIND, or **H**andheld **I**nteractive **V**ibrotactil**e** **M**a
 This prototype device used a BNO055 IMU for detecting tilt commands and the knob on the side for controlling swarm density, or how close the drones would fly next to each other. It would control a lead drone, and all other drones in the swarm behaved as follower devices. Whenever a collision event was detected as likely, the 6 vibrotactile motors along the front edge of the device or the provided band that would fit over the back of the user's hand corresponding with the direction of collision would vibrate according to this strategy.
 
 <div style="text-align: center;">
-<img src="{{ '/assets/img/hive_mind/hive_mind_directional_cues.png' | relative_url }}" alt="directional cues" style="width: 75%;">
+<img src="{{ '/assets/img/hive_mind/hive_mind_directional_cues.png' | relative_url }}" alt="directional cues" style="width: 100%;">
 </div>
 
 ### Evaluation
 This prototype was initially evaluated in terms of whether or not its vibrotactile feedback could be parsed by the user. A double-blind study was designed where each user would receive a cue using the device and they would have to select on a screen which of the squares they believed corresponded with the provided cue. The squares did not have the labels provided in this image, those labels are provided for your convenience and map onto abbreviations for either close or far. For example, 'FLF' would be 'Front Left Far'. 
 
-<div sytle="text-align: center;">
-<img src="{{ '/assets/img/hive_mind/hive_mind_evaluation_key.png' | relative_url }}" alt="user options" style="width: 75%;">
+<div style="text-align: center;">
+<img src="{{ '/assets/img/hive_mind/hive_mind_evaluation_key.png' | relative_url }}" alt="user options" style="width: 65%;">
 </div>
 
 Accuracy scores were compiled for each user, and it was determined that users could generally determine overall directions of feedback, but proximity was a little more confusing. Even then, there were still notable moments of confusion with the cues corresponding to directly lateral collisions. 
