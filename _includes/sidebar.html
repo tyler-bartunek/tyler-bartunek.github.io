@@ -1,0 +1,51 @@
+<style>
+  details>summary {
+    list-style: none;
+  }
+
+  details>summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 8px;
+    transition: transform 0.2s;
+  }
+
+  details[open]>summary::before {
+    transform: rotate(90deg);
+  }
+</style>
+
+<nav style="width: 200px; padding-right: 20px;">
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    <li><a href="{{ '/' | relative_url }}"
+        style="display: block; border: 1px; background-color: #1e6bb8; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none;">Home</a>
+    </li>
+    <li>
+      <details>
+        <summary
+          style="display: block; border: 1px; background-color: #1e6bb8; color: #fff; padding: 8px 12px; margin-bottom: 4px; cursor: pointer;">
+          Prior
+          Work</summary>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li><a href="{{ '/pages/prior-work/everesting.html' | relative_url }}"
+              style="display: block; border: 1px; background-color: #3a85cc; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none; padding-left: 24px;">Everesting</a>
+          </li>
+
+          <li><a href="{{ '/pages/prior-work/ucover.html' | relative_url }}"
+              style="display: block; border: 1px; background-color: #3a85cc; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none; padding-left: 24px;">Motion-Capture
+              Ergonomics</a></li>
+          <li><a href="{{ '/pages/prior-work/velostat.html' | relative_url }}"
+              style="display: block; border: 1px; background-color: #3a85cc; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none; padding-left: 24px;">Velostat:
+              MS Thesis</a></li>
+          <li><a href="{{ '/pages/prior-work/hivemind.html' | relative_url }}"
+              style="display: block; border: 1px; background-color: #3a85cc; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none; padding-left: 24px;">Haptic
+              Drone Controller</a></li>
+          <!-- add more -->
+        </ul>
+      </details>
+    </li>
+    <li><a href="{{ '/pages/contact.html' | relative_url }}" 
+      style="display: block; border: 1px; background-color: #1e6bb8; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none;">Contact</a>
+    </li>
+  </ul>
+</nav>
