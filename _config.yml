@@ -4,5 +4,7 @@ plugins:
 - jekyll-remote-theme
 title: Project ShoeBot
 description: Learning by building
+author:
+  name: Tyler Bartunek
 
 
