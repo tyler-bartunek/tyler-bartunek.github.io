@@ -6,11 +6,11 @@ layout: default
 
 <figure style="text-align: center;">
 <img src="{{ '/assets/img/velostat/velostat_abstract.png' | relative_url}}" alt="Visual Abstract" style="width: 75%;">
-<figcaption style="font-size: 0.85em; color: #666;">I constructed a number of inexpensive force sensors and evaluated them under static, cyclic, and fingertip-based loading.</figcaption>>
+<figcaption style="font-size: 0.85em; color: #666;">I constructed a number of inexpensive force sensors and evaluated them under static, cyclic, and fingertip-based loading.</figcaption>
 </figure>
 
 ### Overview
-My main research as a member of the human-centered haptics and robotics (h-CHAR) lab, was focused on creating inexpensive tactile sensors using a material called Velostat (3M). These tactile sensors were to be used in a system being developed under an NSF grant to "telementor" individuals to perform medical procedures [1].
+My main research as a member of the human-centered haptics and robotics (h-CHAR) lab, was focused on creating inexpensive tactile sensors using a material called Velostat (3M). These tactile sensors were to be used in a system being developed under an NSF grant to "telementor" individuals to perform medical procedures, a continuation of the work by our colleagues in UT Austin [1].
 
 Over the course of this project, I constructed sensors using a hole punch for repeatable Velostat dimensions as well as conductive thread, tape, cling wrap, and JST crimp-on connectors. I also improved the mechanical design and sampling rate of a custom compressive testing setup in the lab. 
 
@@ -43,23 +43,23 @@ Three flavors of evaluation were done:
 That last evaluation was simply recruiting participants to press on the sensor with the finger, trying to go from 0-10 N and back down again three times at a self-directed but controlled pace. More of the design work on my end corresponded to the first two test conditions.
 
 ### Compressive Testing Mechanism
-For preliminary study of Velostat, an undergraduate researcher had developed a custom compressive testing mechanism. A majority of this design was very solid and fit their tests nearly perfectly. However, as I began to build my own tests and pipeline, it became apparent that the occasional issues with reliability/stiction (not quantified, just know it sometimes wouldn't start correctly) as well as the data rate needed to be improved. Additionally, there was interest for other studies in the lab at the time to collect both loading and end-effector displacement data, where their design collected only loading data.
+For preliminary study of Velostat, an undergraduate researcher had developed a custom compressive testing mechanism. Most of their design was very solid and worked well enough for their tests. However, as I began to build my own tests and pipeline, it became apparent that the occasional issues with reliability/stiction (not quantified, just know it sometimes wouldn't start correctly) as well as the data rate needed to be improved. Additionally, there was interest at the time from other researchers in the lab for their studies to collect both loading and end-effector displacement data, where the existing design collected only loading data.
 
 My redesign is shown below, as well as a breakdown immediately following it.
 
-<!--TODO: add redesign image -->
+
 <div style="text-align: center;">
 <img src="{{ '/assets/img/velostat/velostat_indenter.png' | relative-url}}" alt="compressive redesign" style="width: 75%;">
 </div>
 
-I made a decision to keep the parts of the design that were working fairly well, but instead focused on solving four problems:
+I decided to retrofit my design to the elements of the existing design that worked well. My focus was instead on solving four problems:
 
 1. Flexing in the base: solved by adding some 3D-printed beams
-2. Reliability/stiction: solved by replacing the actuation mechanism with a lead-screw design.
+2. Reliability/stiction: solved by replacing the actuation mechanism with a  lead screw-based design using a motor that had a built-in rotary encoder.
 3. Data rate: solved by replacing their ADC with one that supports higher throughput.
 4. No displacement measurement: added two features, an optical distance sensor and the new actuator had a built-in encoder. 
 
-Notice that my fix for the second issue solved more than just that issue, it also contributed to the lack of displacement measurement. Beyond that though, having the open screw also improved maintainability of the system, as it allowed easy access to lubricate the motion components as necessary.
+Notice that my fix for the second issue solved more than just that issue, it also helped address the lack of displacement measurement. Beyond that though, having the open screw also improved maintainability of the system, as it allowed easy access to lubricate the motion components as necessary.
 
 ### Published as
 
