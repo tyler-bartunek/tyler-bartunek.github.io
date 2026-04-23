@@ -1,5 +1,5 @@
 remote_theme: pages-themes/minimal
-logo: /assets/img/Logo.png
+logo: /assets/img/Updated_KICK_logo.png
 plugins:
 - jekyll-remote-theme
 title: KICK Robotics
