@@ -7,14 +7,10 @@ My name is Tyler Bartunek, and I'm a mechanical engineer with two degrees in the
 
 The purpose of this site is to feature selected work from my academic, professional, and project work. Show off a little.
 
-But most prominent among all work presented will be the project work with the KICK () Robot,  We're talking about full-stack hardware and software development, from from 3D CAD work and motor selection to ROS architecture.
+But most prominent among all work presented will be the project work with the KICK Robot,  We're talking about full-stack hardware and software development, from from 3D CAD work and motor selection to ROS architecture. For the most up-to-date status and documentation for this project, refer to [the repository](https://www.github.com/tyler-bartunek/KICK-Robot/) and [the wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki).
 
 ## What's a KICK Robot?
 In short, it's a novel open-source platform under ongoing development by yours truly. I've been hosting my progress and the primary documentation on GitHub, though there's a little info here as well. 
-
-[Link to the repository](https://www.github.com/tyler-bartunek/KICK-Robot/)
-
-[Link to the wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki)
 
 KICK is an acronym, standing for **K**inematically **I**nterchangeable **C**ontrol **K**it.
 
