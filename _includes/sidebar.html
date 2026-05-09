@@ -15,12 +15,12 @@
       Drone Controller</a></li>
 {% endcapture %}
 
-<!-- ShoeBot Links -->
-{% capture shoebot_links %}
-  <li><a href="{{ '/pages/shoebot/overview.html' | relative_url }}"
+<!-- Kick-Robot Links -->
+{% capture kick_robot_links %}
+  <li><a href="{{ '/pages/kick-robot/overview.html' | relative_url }}"
       style="display: block; border: 1px; background-color: #3a85cc; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none; padding-left: 24px;">Overview</a>
   </li>
-  <li><a href="{{ '/pages/shoebot/architecture.html' | relative_url }}"
+  <li><a href="{{ '/pages/kick-robot/architecture.html' | relative_url }}"
       style="display: block; border: 1px; background-color: #3a85cc; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none; padding-left: 24px;">Architecture</a>
   </li>
 {% endcapture %}
@@ -33,7 +33,7 @@
         style="display: block; border: 1px; background-color: #1e6bb8; color: #fff; padding: 8px 12px; margin-bottom: 4px; text-decoration: none;">Home</a>
     </li>
     <li>
-      {% include dropdown.html title="ShoeBot" items=shoebot_links %}
+      {% include dropdown.html title="Kick Robot Info" items=kick_robot_links %}
     </li>
     <li>
       {% include dropdown.html title="Prior Work" items=prior_work_links %}
