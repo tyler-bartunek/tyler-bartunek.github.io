@@ -62,7 +62,7 @@ The core code to deploy on the pico for each module is organized as follows:
 2. utils
 3. main.cpp
 
-You define your custom module by adding a header and cpp file within the modules subdirectory, and be sure to add the relevant files to the CMakeLists.txt file within that subdirectory. The custom module class that you define **must** inherit from the Module base class, and must include a run method override that defines your module's behavior in response to received data from the Pi. That run method **must** call `this -> transfer(data)`, where `data` is a short (uint16\_t) being sent back to the pi. 
+You define your custom module by adding a header and cpp file within the modules subdirectory, and be sure to add the relevant files to the CMakeLists.txt file within that subdirectory. The custom module class that you define **must** inherit from the Module base class, and must include a run method override that defines your module's behavior in response to received data from the Pi. That run method **must** call `this -> transfer(data)`, where `data` is a short (16-bit integer) being sent back to the pi. 
 
 Minimally viable example of a custom subclass header file:
 ```
@@ -90,7 +90,7 @@ For example, if you need to add something for the module to read an encoder that
 add_library(utils STATIC SPITools.cpp MyReallyCoolEncLib.cpp)
 ```
 
-assuming that your library has a cpp file defined for it.
+assuming that your library has a cpp file defined for it. If your library or the one you cloned has additional dependencies, your CMakeLists.txt files edit will be more involved and I will refer you to the CMake documentation for guidance on how to go about those modifications.
 
 Lastly, you modify line 18 of main.cpp to have the name of your new module type
 
