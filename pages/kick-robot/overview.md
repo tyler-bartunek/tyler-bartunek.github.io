@@ -1,9 +1,20 @@
 ---
 layout: default
 ---
-## Overview
+## What's a KICK Robot?
+In short, it's a novel open-source platform under ongoing development by yours truly. I've been hosting my progress and the primary documentation on GitHub, though there's a little info here as well. 
 
-As described on the home landing page, I'm developing a kit to make mobile robotics more accessible. 
+KICK is an acronym, standing for **K**inematically **I**nterchangeable **C**ontrol **K**it.
+
+What does that mean?
+
+Picture this: a 3D-printable kit that allows you to take a leftover shoebox, raspberry pi, and some other electronics, and get a mobile robot out of it.
+
+With me so far? 
+
+Did you picture your mobile robot as having wheels or legs? 
+
+For the KICK robot I'm developing, you will be able to freely switch between the two (provided you have the right modules printed out) and change where they are attached to the box/robot body. You'll even be able to define your own means of locomotion and configurations for the modules you do have.
 
 One might ask "aren't there a lot of kits that have this same general goal?", and that is a fair criticism. However, the KICK platform seeks to take things a step further. A lot of existing kits have you build a pre-designed car or dog and your learning is almost entirely in the software domain.
 
@@ -14,6 +25,8 @@ For instance, in a mecanum wheel-driven system, the layout and configuration of 
 A lot of control algorithms also assume a specific layout for your actuators. What if you break those assumptions? You can do that with the KICK Robot.
 
 ## Project Status as of May 9, 2026
+
+For the most up-to-date status and documentation for this project, refer to [the repository](https://www.github.com/tyler-bartunek/KICK-Robot/) and [the wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki).
 
 ### Hardware
 

@@ -1,0 +1,14 @@
+
+<a href="{{ include.url | relative_url }}" style="text-decoration: none; color: inherit;">
+  <div style="border: 1px solid #1e6bb8; border-radius: 6px; width: 200px; height:300px; padding: 12px; cursor: pointer;">
+    {% if include.image %}
+        <img src="{{ include.image | relative_url }}" alt="{{ include.title }}" style="width: 100%; border-radius: 4px;">
+    {% else %}
+    <div style="width: 100%; height: 100px; background-color: #1e6bb8; border-radius: 4px; display: flex; align-items: center; justify-content: center;">
+        <p style="color: #fff; font-size: 0.85em; text-align: center; margin: 0; padding: 8px;">{{ include.title }}</p>
+    </div>
+    {% endif %}
+    <h4 style="margin: 8px 0 4px; color: #1e6bb8;">{{ include.title }}</h4>
+    <p style="font-size: 0.8em; color: #666; margin: 0;"><strong>Skills: </strong>{{ include.skills }}</p>
+  </div>
+</a>
