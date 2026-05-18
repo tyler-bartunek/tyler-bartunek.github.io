@@ -5,13 +5,7 @@ layout: default
 ## Welcome!
 My name is Tyler Bartunek, and I'm a mechanical engineer with two degrees in the subject, both with a robotics/automation flavor to them. I enjoy studying, creating, and/or improving scalable, modular systems that are meant to operate at precision and last until long after I'm gone. 
 
-## About Me, At-A-Glance
-
-### Education
-MS Mechanical Engineering _Robotics Track_, University of Utah, 2024 <br>
-BS Mechanical Engineering _Robotics and Control Emphasis_, University of Utah, 2022
-
-### Highlighted Projects
+## Highlighted Projects
 
 <div style="display: flex; align-items: stretch; flex-wrap: wrap; gap: 16px;">
     <!-- KICK Robot -->
@@ -19,7 +13,7 @@ BS Mechanical Engineering _Robotics and Control Emphasis_, University of Utah, 2
     title="KICK Robot (Ongoing)"
     image="/assets/img/Updated_KICK_logo.png"
     url="/pages/kick-robot/overview.html"
-    skills="SolidWorks, Mechanical Design, Python, C++, ROS2, KiCAD, Data Analysis, System Identification, Mechatronics, Experimental Design"
+    skills="SolidWorks, Mechanical Design, Rapid Prototyping, Actuator Sizing, Python, C++, ROS2, KiCAD, Data Analysis, System Identification, Mechatronics, Experimental Design"
     %}
 
     <!-- HIVE MIND -->
@@ -27,7 +21,7 @@ BS Mechanical Engineering _Robotics and Control Emphasis_, University of Utah, 2
     title="Haptic Drone Controller"
     image="/assets/img/hive_mind/hive_mind_evaluation_ros.png"
     url="/pages/prior-work/hivemind.html"
-    skills="SolidWorks, C++, Mechatronics, Experimental Design, Haptics"
+    skills="SolidWorks, Rapid Prototyping, C++, Mechatronics, Experimental Design, Haptics"
     %}
 
     <!-- Velostat -->
@@ -54,6 +48,24 @@ BS Mechanical Engineering _Robotics and Control Emphasis_, University of Utah, 2
     %}
 </div>
 <br>
+
+## About Me, At-A-Glance
+
+### Education
+**MS Mechanical Engineering**, University of Utah, 2024 <br>
+_Research-focused, Robotics Track_, GPA 3.62 <br>
+<br>
+**BS Mechanical Engineering**, University of Utah, 2022 <br>
+_Robotics and Control Emphasis_, GPA 3.59
+
+### Skills
+
+|---|---|
+| **Mechanical** | SolidWorks · Mechanical Design · Rapid Prototyping · Actuator Sizing |
+| **Electrical & Electronics** | KiCAD · PCB Design · Embedded Systems · Sensor Integration · Mechatronics |
+| **Software** | Python · C++ · MATLAB · ROS2 · Git |
+| **Research & Methods** | Experimental Design · System Identification · Data Analysis · Statistical Analysis · Technical Communication |
+
 ### Research
 - [Wearable Sensor Development, MDPI sensors](https://www.mdpi.com/1424-8220/25/10/3245), first author. I've described this work at a high-level [here](/pages/prior-work/velostat.html)
 - [Evaluation of Aerosol Containment Hood, Ergonomics in Design](https://journals.sagepub.com/doi/abs/10.1177/10648046261429139), with my write-up of my involvement in this work [here](/pages/prior-work/ucover.html)
@@ -62,11 +74,11 @@ BS Mechanical Engineering _Robotics and Control Emphasis_, University of Utah, 2
 Graduate School
 - Intro to Robot Control
 - Haptics
-- Wearable Robotics
 - Design of Experiments
 - System Identification for Robotic Systems
 - Image Processing
 - Machine Learning
+- Wearable Robotics
 
 Undergraduate
 - Intro to Robotics
