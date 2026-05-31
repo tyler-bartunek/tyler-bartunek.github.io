@@ -3,7 +3,7 @@ layout: default
 ---
 ## Writing Custom Modules for the Pico
 
-The module code is written in a way to facilitate users writing their own custom module definitions. In fact, it's a conceptually identical process as [writing your own configurations]( "custom-configurations-in-ros.html" | relative_url). 
+The module code is written in a way to facilitate users writing their own custom module definitions. In fact, it's a conceptually identical process as [writing your own configurations]({% link pages/kick-robot/architecture-topics/custom-configurations-in-ros.md %}). 
 
 The core code to deploy on the pico for each module is organized as follows:
 
@@ -48,3 +48,6 @@ Lastly, you modify line 18 of main.cpp to have the name of your new module type
 ```
 
 **You must also define a custom module ID for your custom module instance, which you insert in your cpp file as you initialize the Module base class**
+
+[Back to Overview]({% link pages/kick-robot/overview.md %}) <br>
+[Back to Architecture]({% link pages/kick-robot/architecture.md %})

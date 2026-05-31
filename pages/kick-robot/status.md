@@ -34,3 +34,6 @@ Redesign of central electronics mount for raspberry pi, SPI board, batteries, an
 1. Battery monitoring testing
 2. Desktop GUI for configuring more fine-tuned robot settings, such as specific module connection locations and rail separation distance. 
 3. Full implementation and testing of two layout configurations for mecanum wheels. 
+
+<br>
+[Back to Overview]({% link pages/kick-robot/overview.md %})
