@@ -82,4 +82,5 @@ D. Tsetserukou, “Swarmtouch: Guiding a swarm of micro-quadrotors with
 impedance control using a wearable tactile interface,” _IEEE Transactions
 on Haptics_, vol. 12, no. 3, pp. 363–374, 2019.
 
-**Pending: work by supervising professor presented in 2026 World Haptics**
+**Principal Investigator Published Related Work as**
+N. C. Schneider, J. M. Anderson, M. A. Schoen, K. K. Leang and E. Battaglia, "Flying Blind: In-Ground Effect Enabled Haptic Teleoperation of Uncrewed Aerial Vehicles," 2026 IEEE Haptics Symposium (HAPTICS), Reno, NV, USA, 2026, pp. 1-7, doi: 10.1109/HAPTICS66823.2026.11495453.
