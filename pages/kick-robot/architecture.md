@@ -21,7 +21,6 @@ On the other side of the equation, you have the individual modules, which are be
 #### ROS Code
 At a basic level, we have a set of points in a network that are connected by lines of communication. In ROS nomenclature, we have nodes connected via topics and a service. The basic network is shown below. 
 
-<!-- TODO: Create a diagram of the intended layout -->
 <div style="text-align: center;">
 <img src="{{ '/assets/img/kick-robot/ROS-graph.png' | relative_url}}" alt="ROS Graph" style="width: 100%;">
 </div>
@@ -33,72 +32,14 @@ The KICK Robot platform in its basic form as seen above consists of at most four
 3. bus\_hub: Polls each of the connection locations on the custom SPI Board, and manages transactions including error-checking via a checksum and a basic heartbeat message from the module (that the path and module ID are returned successfully on each transaction).
 4. battery\_monitor: Monitors battery levels using an external 16-bit ADC and voltage divider circuit. 
 
-#### Configurations
-The software is written in a way to facilitate users writing their own custom kinematic configuration files for the kickbot node to use. Within the kickbrain package definition in the src folder (kickbrain/kickbrain), you'll find a configuration\_files folder. 
-
-You write your custom kinematic configuration within this folder as a py file, and define it as a class that inherits from the Configuration base class. Each custom kinematic configuration needs to be defined as a class within their own .py file within the configuration\_files directory, and must contain the following methods with these signatures.
-
-```
-def fetch_commands(self, vel_cmd: Twist, feedback) -> list:
-```
-
-This method takes the center of mass velocity command from the motion planning node, which uses the built-in geometry\_msgs.Twist topic message type and any feedback to compute new actuator commands. 
-
-``` 
-def compute_received(self, device_data) -> Twist:
-```
-This method takes the data received from the bus\_hub node and computes the forward kinematics for your configuration to build feedback. 
-
-Once you have your configuration kinematics defined, you go to the \_\_init\_\_.py file within the configuration\_files directory and add the frozenset of module ids that can be used to recognize your configuration. Note that it does use a frozenset, so if you need X number of modules for a successful deployment, be sure to add that check to your custom configuration's class definition.
-
-__**Note that 0x00 is reserved as the "no connection" module ID, so your frozenset will need to include it if any connection points on the harness are disconnected**__
-
 #### Modules
-Similarly, the module code is written in a way to facilitate users writing their own custom module definitions. In fact, it's a conceptually identical process. 
-
 The core code to deploy on the pico for each module is organized as follows:
 
 1. modules
 2. utils
 3. main.cpp
 
-You define your custom module by adding a header and cpp file within the modules subdirectory, and be sure to add the relevant files to the CMakeLists.txt file within that subdirectory. The custom module class that you define **must** inherit from the Module base class, and must include a run method override that defines your module's behavior in response to received data from the Pi. That run method **must** call `this -> transfer(data)`, where `data` is a short (uint16\_t) being sent back to the pi. 
-
-Minimally viable example of a custom subclass header file:
-```
-#pragma once
-
-#include "Module.h"
-
-class MinimalExample : public Module {
-    
-    public:
-        
-        MinimalExample();
-
-        void run() override;
-
-        ~MinimalExample() = default;
-};
-```
-
-If your module requires additional custom header files to function, these go under the utils subdirectory and you will in turn need to modify that CMakeLists.txt file.
-
-For example, if you need to add something for the module to read an encoder that you've either written or cloned a library for named MyReallyCoolEncLib, you would modify the very first line of CMakeLists.txt file in utils to read:
-
-```
-add_library(utils STATIC SPITools.cpp MyReallyCoolEncLib.cpp)
-```
-
-assuming that your library has a cpp file defined for it.
-
-Lastly, you modify line 18 of main.cpp to have the name of your new module type
-
-```
-#define MODULE_TYPE MinimalExample
-```
-
-**You must also define a custom module ID for your custom module instance, which you insert in your cpp file as you initialize the Module base class**
+Within main.cpp, the MODULE_TYPE is specified using the `#define` macro, and the relevant header file is where the module ID is set for use by the ROS code to identify the module.
 
 Currently used ID's within KICK framework:
 
@@ -110,3 +51,31 @@ Currently used ID's within KICK framework:
 |0x03 | Mecanum Wheel Version B |
 |0x04 | Quadruped Leg Version A |
 |0x05 | Quadruped Leg Version B |
+
+In the case of the Mecanum Wheel, if you need to change the code from Version A (Left) to Version B (Right), you need to go into the modules directory, find the "Wheels.cpp" file, and modify which one is defined by the `#define` macro. 
+
+### More Info
+
+These articles handle these topics in greater depth, as does the [wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki).
+
+<div style="display: flex; align-items: stretch; flex-wrap: wrap; gap: 16px;">
+
+<!-- Custom Configurations in ROS -->
+{% include project-preview.html
+    title="Writing Custom Configurations"
+    url="/pages/kick-robot/architecture-topics/custom-configurations-in-ros.html"
+%}
+
+<!-- Custom Module Definitions -->
+{% include project-preview.html
+    title="Writing Custom Module Definitions in the Pico SDK"
+    url="/pages/kick-robot/architecture-topics/custom-modules-pico.html"
+%}
+
+<!-- Transmission -->
+{% include project-preview.html
+    title="Transmission To/From Modules"
+    url="/pages/kick-robot/architecture-topics/transmission.html"
+%}
+
+</div>

@@ -5,6 +5,11 @@
         <img src="{{ include.image | relative_url }}" alt="{{ include.title }}" style="width: 100%; border-radius: 4px;">
     {% endif %}
     <h4 style="margin: 8px 0 4px; color: #1e6bb8;">{{ include.title }}</h4>
-    <p style="font-size: 0.8em; color: #666; margin: 0;"><strong>Skills: </strong>{{ include.skills }}</p>
+    {% if include.skills %}
+        <div style="margin-top: 8px; font-size: 0.8em; color: #666;"><strong>Skills: </strong>{{ include.skills }}</div>
+    {% endif %}
+    {% if include.description %}
+        <p style="margin-top: 8px; font-size: 0.9em; color: #333;">{{ include.description }}</p>
+    {% endif %}
   </div>
 </a>
