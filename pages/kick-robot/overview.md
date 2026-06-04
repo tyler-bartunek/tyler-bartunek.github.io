@@ -39,7 +39,7 @@ A lot of control algorithms also assume a specific layout for your actuators. Wh
 <!-- Project Status -->
 {% include project-preview.html
     title="Project Status"
-    description="Current status of development as of June ??, 2026"
+    description="Current status of development as of June 4, 2026"
     url="/pages/kick-robot/status.html"
 %}
 

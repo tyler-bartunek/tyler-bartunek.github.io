@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Project Status as of June ??, 2026
+## Project Status as of June 4, 2026
 
 For the most up-to-date status and documentation for this project, refer to [the repository](https://www.github.com/tyler-bartunek/KICK-Robot/) and [the wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki).
 
@@ -29,11 +29,11 @@ Redesign of central electronics mount for raspberry pi, SPI board, batteries, an
 
 #### Ongoing
 1. Recognition on the module side for when the host has been lost.
+2. Desktop GUI for configuring more fine-tuned robot settings, such as specific module connection locations and rail separation distance. 
 
 #### Future
 1. Battery monitoring testing
-2. Desktop GUI for configuring more fine-tuned robot settings, such as specific module connection locations and rail separation distance. 
-3. Full implementation and testing of two layout configurations for mecanum wheels. 
+2. Full implementation and testing of two layout configurations for mecanum wheels. 
 
-<br>
+<br><br>
 [Back to Overview]({% link pages/kick-robot/overview.md %})

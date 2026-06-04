@@ -19,6 +19,9 @@ This board uses a 74HC595 shift register to handle the six CS lines currently us
 
 Additionally, within the hardware_interfaces.py file that defines how the shift register toggles the CS lines, there is one additional case where all lines are pulled high. This is because the way SPI is configured in the code on both sides, the CS line needs to pulse high after each byte. This is toggled with the Line ID of 8, leaving line IDs 6 and 7 available for future use if a board were developed that used all 8 output stages of the shift register. 
 
+#### SPI Hub SYNC
+In order to promote synchronized behavior across modules, the ROS code is configured to pulse the dedicated SYNC line active-low at the end of its polling sequence where it conducts an SPI transaction with each of the lines sequentially. This allows ambitious users to define interrupts in their custom C++ module code to execute commands across modules simultaneously, if they so desire.
+
 ### Protocol
 Messages sent to and from the attached modules need to have integrity, and actions need to be coordinated between modules. For these reasons, the KICK Robot system uses an 8-byte message frame for communications and has a SYNC line available to pulse low once all lines have been polled. 
 

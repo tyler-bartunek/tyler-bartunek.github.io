@@ -11,7 +11,34 @@ There are two pieces of hardware that serve as the heart and soul of the ShoeBot
 1. The SPI distribution board
 2. The rail system
 
-**More details coming soon, will be available on the [wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki) first**
+#### SPI Distribution Board
+
+I designed a custom PCB (screenshots of schematic below) to facilitate both high-speed transactions for configurations where that matters as well as ease of identifying module configurations and approximate layout. SPI felt like the right protocol to achieve both objectives, and what this board does is it minimizes GPIO usage by making use of a 74HC595 shift register to toggle the 6 CS lines, though this shift register does allow for a future design to have up to 8 connections. 
+
+Refer to either the [transmission protocol page]({% link pages/kick-robot/architecture-topics/transmission.md %}) or the [wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki) for more details on how it does this.
+
+<img src="{{ '/assets/img/kick-robot/SPI_Hub.png' | relative_url }}" alt="Fanout Schematic" width="1000" align = "center"/><br>
+
+Each of the blocks labeled "Left Front Peripheral" or similar have this general setup in them, only aligned with the wiring in the overall schematic. Note that the enable line for the tri-state buffers is tied to the CS line for that harness point, so that way the receiving line is kept tri-stated when not reading that location. 
+
+<img src="{{ '/assets/img/kick-robot/SPI_Hub_detail.png' | relative_url }}" alt="Fanout Schematic" width="1000" align = "center"/>
+
+##### Board Pinout
+
+| Functional Group | Function | Pin (BCM) |
+|------------------|----------|-----------|
+| Data Transmission| CIPO | 9 |
+| Data Transmission| COPI | 10 |
+| Data Transmission| SCK | 11 |
+| Data Transmission| SYNC| 25 |
+| Chip Select | OE | 5 |
+| Chip Select | LATCH | 6 |
+| Chip Select | SCHCLK | 13 |
+| Chip Select | DATA | 26 |
+
+#### Rails
+
+**Details coming soon, will be available on the [wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki) first**
 
 ### Software
 The core software of the ShoeBot (the stuff that will live on the raspberry pi) was developed using ROS, or robot operating system. At a future date, I might write a knowledge base article on more of the details of ROS for the uninitiated, but for now I will direct you to the [Open Robotics Documentation](https://docs.ros.org/en/jazzy/Concepts/Basic.html) if you want to learn more about it.
@@ -79,5 +106,5 @@ These articles handle these topics in greater depth, as does the [wiki](https://
 %}
 
 </div>
-
+<br><br>
 [Back to Overview]({% link pages/kick-robot/overview.md %})
