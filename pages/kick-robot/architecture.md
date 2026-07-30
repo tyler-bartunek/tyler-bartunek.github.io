@@ -2,6 +2,8 @@
 layout: default
 ---
 
+[Back to Overview]({% link pages/kick-robot/overview.md %})<br>
+
 ## Architecture
 
 The KICK Robot system spans both hardware and software, and this page attempts to describe both architectures.
@@ -54,8 +56,8 @@ At a basic level, we have a set of points in a network that are connected by lin
 
 The KICK Robot platform in its basic form as seen above consists of at most four nodes. This is kept small to limit the number of transactions taking place across nodes using the ROS ecosystem, due to resource (RAM) constraints. 
 
-1. Planner (swappable, future work): Generates movement commands, sends them to kickbrain over a command topic. 
-2. kickbot: Central node, accepts input from battery_monitoring and the motion planner. Triggers a system halt and/or shutdown when power levels get too low, detects configurations based on module connections, and implements the control loop. 
+1. Planner (swappable, future work): Generates movement commands, sends them to kickbrain over a command topic. Handled by the GUI. 
+2. kickbot: Central node, accepts input from battery_monitoring and the motion planner. Triggers a system halt and/or shutdown when power levels get too low, detects configurations based on module connections (defined in the kick\_configs package), and implements the control loop. 
 3. bus\_hub: Polls each of the connection locations on the custom SPI Board, and manages transactions including error-checking via a checksum and a basic heartbeat message from the module (that the path and module ID are returned successfully on each transaction).
 4. battery\_monitor: Monitors battery levels using an external 16-bit ADC and voltage divider circuit. 
 

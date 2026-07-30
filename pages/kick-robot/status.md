@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Project Status as of June 4, 2026
+## Project Status as of July 29, 2026
 
 For the most up-to-date status and documentation for this project, refer to [the repository](https://www.github.com/tyler-bartunek/KICK-Robot/) and [the wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki).
 
@@ -29,7 +29,9 @@ Redesign of central electronics mount for raspberry pi, SPI board, batteries, an
 
 #### Ongoing
 1. Recognition on the module side for when the host has been lost.
-2. Desktop GUI for configuring more fine-tuned robot settings, such as specific module connection locations and rail separation distance. 
+2. Desktop GUI for configuring more fine-tuned robot settings, such as specific module connection locations and rail separation distance.
+
+Specifically, the Desktop GUI is heading in a containerized direction and will be assuming all planning functionality capabilities. Earliest version is simple arrow key navigation, though future work will explore OMPL in the short-term and more advanced planners in the longer-term.
 
 #### Future
 1. Battery monitoring testing

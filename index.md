@@ -55,6 +55,7 @@ My name is Tyler Bartunek, and I'm a mechanical engineer with two degrees in the
 **MS Mechanical Engineering**, University of Utah, 2024 <br>
 _Research-focused, Robotics Track_, GPA 3.62 <br>
 <br>
+
 **BS Mechanical Engineering**, University of Utah, 2022 <br>
 _Robotics and Control Emphasis_, GPA 3.59
 
@@ -71,6 +72,12 @@ _Robotics and Control Emphasis_, GPA 3.59
 - [Evaluation of Aerosol Containment Hood, Ergonomics in Design](https://journals.sagepub.com/doi/abs/10.1177/10648046261429139), with my write-up of my involvement in this work [here](/pages/prior-work/ucover.html)
 
 ### Courses
+Continuing Education
+- Technical Drawing Interpretation (ASME)
+- Finite Element Analysis (Self-Study, _Ongoing_)
+  - Daryl Logan's _A First Course in the Finite Element Method_, 5th ed.
+  - Abaqus Knowledge Base Articles and Tutorials 
+
 Graduate School
 - Intro to Robot Control
 - Haptics

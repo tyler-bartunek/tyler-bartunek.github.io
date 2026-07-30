@@ -1,6 +1,10 @@
 ---
 layout: default
 ---
+
+[Back to Overview]({% link pages/kick-robot/overview.md %}) <br>
+[Back to Architecture]({% link pages/kick-robot/architecture.md %}) <br>
+
 ## Writing Custom Modules for the Pico
 
 The module code is written in a way to facilitate users writing their own custom module definitions. In fact, it's a conceptually identical process as [writing your own configurations]({% link pages/kick-robot/architecture-topics/custom-configurations-in-ros.md %}). 
