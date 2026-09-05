@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Back to Overview]({% link pages/kick-robot/overview.md %})<br>
+<a href="/pages/kick-robot/overview.html">Back to Overview</a><br>
 
 ## Architecture
 
@@ -43,7 +43,9 @@ Each of the blocks labeled "Left Front Peripheral" or similar have this general 
 **Details coming soon, will be available on the [wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki) first**
 
 ### Software
-The core software of the ShoeBot (the stuff that will live on the raspberry pi) was developed using ROS, or robot operating system. At a future date, I might write a knowledge base article on more of the details of ROS for the uninitiated, but for now I will direct you to the [Open Robotics Documentation](https://docs.ros.org/en/jazzy/Concepts/Basic.html) if you want to learn more about it.
+The core software of the ShoeBot (the stuff that will live on the raspberry pi) was developed using ROS, or robot operating system. 
+
+<!-- At a future date, I might write a knowledge base article on more of the details of ROS for the uninitiated, but for now I will direct you to the [Open Robotics Documentation](https://docs.ros.org/en/jazzy/Concepts/Basic.html) if you want to learn more about it. -->
 
 On the other side of the equation, you have the individual modules, which are being developed for the RPi Pico 2040 using the Pico's SDK. 
 
@@ -107,6 +109,14 @@ These articles handle these topics in greater depth, as does the [wiki](https://
     url="/pages/kick-robot/architecture-topics/transmission.html"
 %}
 
+<!-- ### Related
+
+{% include project-preview.html
+    title="Desktop Application Notes"
+    description="Development notes for the user interface being developed for controlling robot settings."
+    url="/pages/kick-robot/gui-dev/desktop-gui.html"
+%} -->
+
 </div>
 <br><br>
-[Back to Overview]({% link pages/kick-robot/overview.md %})
+<a href="/pages/kick-robot/overview.html">Back to Overview</a> <br>

@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Project Status as of July 29, 2026
+## Project Status as of September 4, 2026
 
 For the most up-to-date status and documentation for this project, refer to [the repository](https://www.github.com/tyler-bartunek/KICK-Robot/) and [the wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki).
 
@@ -26,16 +26,19 @@ Redesign of central electronics mount for raspberry pi, SPI board, batteries, an
 2. Module code written in C++ using the Pico SDK, correctly handshakes with the Pi and status indicator changes from "disconnected" to "all clear" sequence. 
 3. Additional ROS nodes for battery monitoring and a full systems check have been written.
 4. Pico integration with the DRV8871 motor drivers and encoder reading functionality, test case for ROS runs without major errors.
+5. Desktop GUI connects with Raspberry Pi ROS2 code via mDNS discovery and communicates via rosbridge.
+
 
 #### Ongoing
 1. Recognition on the module side for when the host has been lost.
-2. Desktop GUI for configuring more fine-tuned robot settings, such as specific module connection locations and rail separation distance.
+2. Desktop GUI
+   - Sending commands to the robot
+   - Changing robot, sensor, and module-level settings
 
-Specifically, the Desktop GUI is heading in a containerized direction and will be assuming all planning functionality capabilities. Earliest version is simple arrow key navigation, though future work will explore OMPL in the short-term and more advanced planners in the longer-term.
 
 #### Future
 1. Battery monitoring testing
 2. Full implementation and testing of two layout configurations for mecanum wheels. 
 
 <br><br>
-[Back to Overview]({% link pages/kick-robot/overview.md %})
+<a href="/pages/kick-robot/overview.html">Back to Overview</a>
