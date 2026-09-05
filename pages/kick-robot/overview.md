@@ -37,8 +37,8 @@ A lot of control algorithms also assume a specific layout for your actuators. Wh
 <!-- Project Status -->
 {% include project-preview.html
     title="Project Status"
-    image="/assets/img/Logo.png"
-    description="Current status of development as of July 29, 2026"
+    image="/assets/img/Updated_KICK_logo.png"
+    description="Current status of development as of September 4, 2026"
     url="/pages/kick-robot/status.html"
 %}
 
@@ -49,5 +49,12 @@ A lot of control algorithms also assume a specific layout for your actuators. Wh
     description="A high-level overview of what makes the KICK Robot tick, and instructions on how to build on the foundation I've laid."
     url="/pages/kick-robot/architecture.html"
 %}
+
+<!-- Desktop Application -->
+<!-- {% include project-preview.html
+    title="Desktop Application Notes"
+    description="Development notes for the user interface being developed for controlling robot settings."
+    url="/pages/kick-robot/gui-dev/desktop-gui.html"
+%} -->
 
 </div>
