@@ -51,7 +51,7 @@ My redesign is shown below, as well as a breakdown immediately following it.
 
 
 <div style="text-align: center;">
-<img src="{{ '/assets/img/velostat/velostat_indenter.png' | relative-url}}" alt="compressive redesign" style="width: 75%;">
+<img src="{{ '/assets/img/velostat/velostat_indenter.png' | relative_url}}" alt="compressive redesign" style="width: 75%;">
 </div>
 
 I decided to retrofit my design to the elements of the existing design that worked well, with the new design done using SolidWorks. My focus was instead on solving four problems:

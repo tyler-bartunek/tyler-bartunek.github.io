@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-## Project Status as of September 4, 2026
+## Project Status as of September 16, 2026
 
 For the most up-to-date status and documentation for this project, refer to [the repository](https://www.github.com/tyler-bartunek/KICK-Robot/) and [the wiki](https://www.github.com/tyler-bartunek/KICK-Robot/wiki).
 
