@@ -9,6 +9,10 @@ layout: default
 <figcaption style="font-size: 0.85em; color: #666;">Webscraping and data analysis yield insights into a popular cycling challenge. Photo by <a href="https://unsplash.com/@segerfredo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Frederik Rosar</a> on <a href="https://unsplash.com/photos/a-person-riding-a-bike-on-a-mountain-F_sGPBDM1FI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.</figcaption>
 </figure>
 
+<strong>Outcomes: </strong> Peer-reviewed publication in [Nature Scientific Reports](https://www.nature.com/articles/s41598-023-29435-w). <br> 
+<strong>Status: </strong> Concluded involvement in 2022 ahead of work in H-CHAR lab. <br>
+<strong>Skills: </strong> Python, Data Collection and Analysis, Research
+
 ### Overview
 "Everesting" is a cycling challenge that rose to "prominence" (a little mountain-based humor) during the pandemic, and entails repeatedly riding a trail until your overall elevation gain equals that of Everest above sea level (8848 m). As an undergraduate student, I had the opportunity to volunteer on a research project that involved scraping publicly available data and using machine learning to find if there is a best way to approach this challenge based on your relative experience as a cyclist. 
 

@@ -6,6 +6,10 @@ layout: default
 
 _**Apologies, images are not available for this project at this time.**_
 
+<strong>Outcomes: </strong> Peer-reviewed publication in [Ergonomics in Design](https://journals.sagepub.com/doi/abs/10.1177/10648046261429139). <br>
+<strong>Status: </strong> All data collected and equipment returned to the University Center for Medical Innovation as of early 2024. 
+<strong>Skills: </strong> Motion Capture, Python, MATLAB, Data Analysis, Cross-Disciplinary Collaboration
+
 ### Overview
 In the wake of the global pandemic, an important question for many research teams was how to better protect medical personnel from patient aerosols including airborne pathogens. Researchers at the University of Utah began developing the U-COVER (referred to from this point forward as 'the hood'), a portable containment device designed to provide such protection. The aim of the study was to assess the user experience with this hood, from ergonomics to how users felt about using it. Subjective measures were captured with surveys such as the NASA task load index (TLX) and the system usability survey (SUS). 
 

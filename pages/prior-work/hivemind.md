@@ -9,6 +9,11 @@ layout: default
 <figcaption style="font-size: 0.85em; color: #666;">Using the interface to control a simulated drone swarm, highlighted with red circles.</figcaption>
 </figure>
 
+<strong>Outcomes: </strong> Submitted project report and earned an A. The demonstration was deemed ``compelling" and shown to a collaborator. The lab director and this collaborator went on to publish quasi-related work together in the 2026 Haptics Symposium. 
+<strong>Status: </strong> Project ended in 2023. Prototype left with H-CHAR lab; simulation and data analysis code repositories provided as part of project deliverable (the report). <br>
+<strong>Skills: </strong> SolidWorks, Rapid Prototyping, C++, Mechatronics, Experimental Design, Haptics 
+
+
 ### Overview
 In this class-based team project, I co-developed a tilt-based controller for quadcopter drones that provides haptic feedback to aid the user with obstacle avoidance. We evaluated how interpretable the provided cues were with a small pilot test with our classmates, and my partner built a ROS simulation where the device was used to guide three crazyflie drones through an obstacle course.
 
