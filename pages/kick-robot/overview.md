@@ -22,6 +22,8 @@ With me so far?
 
 Did you picture your mobile robot as having wheels or legs? 
 
+<!--TODO: Add CAD render of robot -->
+
 For the KICK robot I'm developing, you will be able to freely switch between the two (provided you have the right modules printed out) and change where they are attached to the box/robot body. You'll even be able to define new configurations for your existing modules or come up with new locomotion modules altogether.
 
 The KICK platform seeks to take things a step further than a lot of educational kits. A lot of existing kits choose to either go in-depth in hardware **or** software, but not both. This kit seeks to target both, so you gain a complete and intuitive sense for the levers you can pull as a roboticist to change system behavior.
@@ -38,7 +40,7 @@ A lot of control algorithms also assume a specific layout for your actuators. Wh
 {% include project-preview.html
     title="Project Status"
     image="/assets/img/Updated_KICK_logo.png"
-    description="Current status of development as of September 4, 2026"
+    description="Current status of development as of September 16, 2026"
     url="/pages/kick-robot/status.html"
 %}
 
@@ -51,10 +53,11 @@ A lot of control algorithms also assume a specific layout for your actuators. Wh
 %}
 
 <!-- Desktop Application -->
-<!-- {% include project-preview.html
+{% include project-preview.html
     title="Desktop Application Notes"
+    image="/assets/img/kick-robot/KICK-GUI-screen.png"
     description="Development notes for the user interface being developed for controlling robot settings."
     url="/pages/kick-robot/gui-dev/desktop-gui.html"
-%} -->
+%}
 
 </div>
