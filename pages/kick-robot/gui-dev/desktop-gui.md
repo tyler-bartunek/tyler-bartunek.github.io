@@ -10,7 +10,7 @@ I've been developing an application for configuring and altering settings for th
 
 <!-- Insert screen capture of the GUI -->
 <div style="text-align: center;">
-<img src="{{ '/assets/img/kick-robot/KICK-GUI-screen.png' | relative_url}}" alt="compressive redesign" style="width: 75%;">
+<img src="{{ '/assets/img/kick-robot/KICK-GUI-screen.png' | relative_url}}" alt="compressive redesign" style="width: 100%;">
 </div>
 
 ### Current Work
@@ -32,14 +32,23 @@ As of the last update, wiring up the backend of the application is well underway
 4. Toggling between central canvases (Hardware Configuration, Sensor Settings, SLAM placeholder) 
 5. Sensor names added to active list, settings persist between dialog box opening/closing <br>
     a. This includes functionality related to pulling XML-defined sensor parameters into that settings dialog box. <br>
-6. Checking for exit confirmation before closing.
+6. Manual Control
+   - D-pad updates velocity commands appropriately.
+7. Checking for exit confirmation before closing.
 
-#### Currently Suspect/Buggy
+
+#### Current Focus
+
+1. Manual control
+   - Connecting Keyboard
+   - Initial PID on Pi-side for hot motor test
+
+<!-- #### Currently Suspect/Buggy
 
 Bold denotes primary focus
 
-1. **Control: Keyboard functionality currently unresponsive, d-pad reports incorrect velocity updates.**
-2. Connected Modules Status Card: Logging tells us there should be erroneously detected modules, but device count doesn't update. This could go either way, the lower update rate of bot-state relative to bus-state could be smoothing out false positives.
+1. **Control: Keyboard functionality currently unresponsive.**
+2. Connected Modules Status Card: Logging tells us there should be erroneously detected modules, but device count doesn't update. This could go either way, the lower update rate of bot-state relative to bus-state could be smoothing out false positives. -->
 
 #### Upcoming
 

@@ -9,8 +9,15 @@ layout: default
 <figcaption style="font-size: 0.85em; color: #666;">Using the interface to control a simulated drone swarm, highlighted with red circles.</figcaption>
 </figure>
 
-<strong>Outcomes: </strong> Submitted project report and earned an A. The demonstration was deemed ``compelling" and shown to a collaborator. The lab director and this collaborator went on to publish quasi-related work together in the 2026 Haptics Symposium. 
-<strong>Status: </strong> Project ended in 2023. Prototype left with H-CHAR lab; simulation and data analysis code repositories provided as part of project deliverable (the report). <br>
+<strong>Outcomes: </strong> 
+- Submitted project report and earned an A.
+- Demonstration was deemed ``compelling" and shown to a collaborator, which may have informed elements of related work presented at the 2026 Haptics Symposium. <br>
+
+<strong>Status: </strong> 
+- Project ended in 2023. 
+- Prototype left with H-CHAR lab
+- Simulation and data analysis code repositories provided as part of project deliverable (the report). <br>
+
 <strong>Skills: </strong> SolidWorks, Rapid Prototyping, C++, Mechatronics, Experimental Design, Haptics 
 
 
@@ -56,12 +63,14 @@ The other core functionality being assessed was if the tilt commands and knob we
 <img src="{{ '/assets/img/hive_mind/hive_mind_evaluation_ros.png' | relative_url }}" alt="ros sim" style="width: 75%;"/>
 </div>
 
-This test was more warmly received, with users describing it as fun though challenging. Launch proved particularly challenging since the controller immediately started issuing commands to the drone, leading to a lot of crashes during takeoff, which we determined could be patched in the short-term by adding a delay to when the controller starts issuing commands in future simulations. Long-term a switch or button could be added that toggles if the controller is active or not.
+This test was more warmly received, with users describing it as fun though challenging. Launch proved particularly challenging since the controller immediately started issuing commands to the drone, leading to a lot of crashes during takeoff. We determined this could be patched in the short-term by adding a delay to when the controller starts issuing commands in future simulations. Long-term a switch or button could be added that toggles if the controller is active or not.
 
 ### Future Work
 Based on feedback, future directions for this project would center upon better mechanically separating the motors from each other, as the vibrations carrying through the 3D printed (PLA) body led to confusion. A just noticeable difference study for each motor and location could help ensure that the cues are more distinguishable. Lastly, dimensions (notably the width and height) would be reduced. 
 
 One possible design under consideration would place motors onto thimbles connected by retractable reels connected to the main body of the controller. Other possible designs would involve further relaxing the 'device you can pick up' constraint and/or deploying pseudohaptics in VR to help.
+
+The relaxation of that last constraint appears to be the direction the lab's principle investigator and a collaborator went in their related work. They ditched the PLA box in favor of a vibrotactile glove, which was also more common in the prior art.
 
 ### Related Work/Citations
 1. D. Kim and P. Y. Oh, “Aerial manipulation using a human-embodied

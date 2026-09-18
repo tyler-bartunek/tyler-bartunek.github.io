@@ -6,8 +6,13 @@ layout: default
 
 _**Apologies, images are not available for this project at this time.**_
 
-<strong>Outcomes: </strong> Peer-reviewed publication in [Ergonomics in Design](https://journals.sagepub.com/doi/abs/10.1177/10648046261429139). <br>
+<strong>Outcomes: </strong> 
+- Developed python code that auto-assigns motion capture data with a RULA score (ergonomic measure).
+- Motion capture data revealed no meaningful ergonomic difference between using a protective hood over a simulated patient vs not having that hood in place.
+- Peer-reviewed publication in [Ergonomics in Design](https://journals.sagepub.com/doi/abs/10.1177/10648046261429139). <br>
+
 <strong>Status: </strong> All data collected and equipment returned to the University Center for Medical Innovation as of early 2024. 
+
 <strong>Skills: </strong> Motion Capture, Python, MATLAB, Data Analysis, Cross-Disciplinary Collaboration
 
 ### Overview
