@@ -9,7 +9,11 @@ layout: default
 <figcaption style="font-size: 0.85em; color: #666;">I constructed a number of inexpensive force sensors and evaluated them under static, cyclic, and fingertip-based loading.</figcaption>
 </figure>
 
-<strong>Outcomes: </strong> Peer-reviewed and cited publication in [MDPI sensors](https://www.mdpi.com/1424-8220/25/10/3245), Successful thesis defense. <br>
+<strong>Outcomes: </strong> 
+- Peer-reviewed and cited publication in [MDPI sensors](https://www.mdpi.com/1424-8220/25/10/3245), - Successful thesis defense. 
+- Improved benchtop compressive testing setup, which was still in use as of August 2025. <br>
+  - 25x data acquisition rate boost
+  - Actuation went from inconsistent (failure ~1/20 tests) to consistent (no failures after 100+ tests)
 <strong>Status: </strong> Personal involvement concluded in May 2025 as the publication cleared peer review.
 <strong>Skills: </strong> Research, Technical Communication, Mechatronics, SolidWorks, C++, Experimental Design, MATLAB, Statistics
 
