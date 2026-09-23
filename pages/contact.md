@@ -14,4 +14,4 @@ Let me know by filling out the form linked below!
 </a>
 </div>
 <br>
-You can also find me on [LinkedIn](https://www.linkedin.com/in/tyler-bartunek). Just please note that I may not be able to respond to every message and that the people who fill out the form will get priority.
+You can also find me on [LinkedIn](https://www.linkedin.com/in/tyler-bartunek). Just please note that I may not be able to respond to every message and that the people who fill out the form will get both priority and a swift (guaranteed within 24 hours) email response.
