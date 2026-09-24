@@ -4,7 +4,10 @@ layout: default
 
 ## Motion-Capture-Based Ergonomics Analysis of Containment Hood 
 
-_**Apologies, images are not available for this project at this time.**_
+<figure style="text-align: center;">
+<img src="{{ '/assets/img/ucover/mocap_image.png' | relative_url}}" alt="Visual Abstract" style="width: 75%;">
+<figcaption style="font-size: 0.85em; color: #666;">Screenshot of the motion capture (Motive, Optitrack) data from an anonymous particpant performing an intubation with the aerosol contaiment hood in place.</figcaption>
+</figure>
 
 <strong>Outcomes: </strong> 
 - Developed python code that auto-assigns motion capture data with a RULA score (ergonomic measure).

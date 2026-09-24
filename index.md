@@ -3,17 +3,9 @@ layout: default
 ---
 
 ## Welcome!
-My name is Tyler Bartunek, and I'm a mechanical engineer with two degrees in the subject, both with a robotics/automation flavor to them. I enjoy studying, creating, and/or improving scalable, modular systems that are meant to operate at precision and last until long after I'm gone. 
+My name is Tyler Bartunek, and I'm a mechanical engineer working across mechanical design, controls, and embedded systems. I enjoy studying, creating, and/or improving scalable, modular systems that are meant to operate at precision and last until long after I'm gone. 
 
-Currently, I am working (between job applications and other upskilling activities) on an open-source, modular, and reconfigurable robotics kit of my own design, the KICK robot platform. It's been my most ambitious project yet, and I'll try to keep both this site and its GitHub wiki updated with progress reports.
-
-## Skills
-
-|---|---|
-| **Mechanical** | SolidWorks · Mechanical Design · Rapid Prototyping · Actuator Sizing |
-| **Electrical & Electronics** | Mechatronics · Sensor Integration ·  Embedded Systems · KiCAD · PCB Design · Soldering |
-| **Software** | Python · C++ · MATLAB · ROS2 · R · Git |
-| **Research & Methods** | Experimental Design · Data Acquisition · System Identification · Data Analysis · Statistical Analysis · Technical Communication · DMMs and Oscilloscopes · Motion Capture |
+While I continue to search for my next full-time role, I've been building out an open-source, modular, and reconfigurable robotics kit of my own design, the KICK robot platform. It's been my most ambitious project yet, and I'm keeping both this site and its GitHub wiki updated with progress reports.
 
 ## Highlighted Projects
 
@@ -45,6 +37,7 @@ Currently, I am working (between job applications and other upskilling activitie
     <!-- U-COVER -->
     {% include project-preview.html
     title="Aerosol Containment Hood Ergonomics"
+    image="/assets/img/ucover/mocap_image.png"
     url="/pages/prior-work/ucover.html"
     skills="Motion Capture, Python, MATLAB, Data Analysis, Cross-Disciplinary Collaboration"
     %}
@@ -61,10 +54,18 @@ Currently, I am working (between job applications and other upskilling activitie
 
 ## More Info
 
+### Skills
+
+|---|---|
+| **Mechanical** | SolidWorks · Mechanical Design · Rapid Prototyping · Actuator Sizing |
+| **Electrical & Electronics** | Mechatronics · Sensor Integration ·  Embedded Systems · KiCAD · PCB Design · Soldering |
+| **Software** | Python · C++ · MATLAB · ROS2 · R · Git |
+| **Research & Methods** | Experimental Design · Data Acquisition · System Identification · Data Analysis · Statistical Analysis · Technical Communication · DMMs and Oscilloscopes · Motion Capture |
+
 ### Education
 **MS Mechanical Engineering**, University of Utah, 2024 <br>
 _Research-focused, Robotics Track_, GPA 3.62 <br>
-<br>
+
 
 **BS Mechanical Engineering**, University of Utah, 2022 <br>
 _Robotics and Control Emphasis_, GPA 3.59
