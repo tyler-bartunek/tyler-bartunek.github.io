@@ -3,7 +3,9 @@ layout: default
 ---
 
 ## Welcome!
-My name is Tyler Bartunek, and I'm a mechanical engineer with two degrees in the subject, both with a robotics/automation flavor to them. I enjoy studying, creating, and/or improving scalable, modular systems that are meant to operate at precision and last until long after I'm gone. 
+My name is Tyler Bartunek, and I'm a mechanical engineer working across mechanical design, controls, and embedded systems. I enjoy studying, creating, and/or improving scalable, modular systems that are meant to operate at precision and last until long after I'm gone. 
+
+While I continue to search for my next full-time role, I've been building out an open-source, modular, and reconfigurable robotics kit of my own design, the KICK robot platform. It's been my most ambitious project yet, and I'm keeping both this site and its GitHub wiki updated with progress reports.
 
 ## Highlighted Projects
 
@@ -35,6 +37,7 @@ My name is Tyler Bartunek, and I'm a mechanical engineer with two degrees in the
     <!-- U-COVER -->
     {% include project-preview.html
     title="Aerosol Containment Hood Ergonomics"
+    image="/assets/img/ucover/mocap_image.png"
     url="/pages/prior-work/ucover.html"
     skills="Motion Capture, Python, MATLAB, Data Analysis, Cross-Disciplinary Collaboration"
     %}
@@ -49,36 +52,37 @@ My name is Tyler Bartunek, and I'm a mechanical engineer with two degrees in the
 </div>
 <br>
 
-## About Me, At-A-Glance
-
-### Education
-**MS Mechanical Engineering**, University of Utah, 2024 <br>
-_Research-focused, Robotics Track_, GPA 3.62 <br>
-<br>
-
-**BS Mechanical Engineering**, University of Utah, 2022 <br>
-_Robotics and Control Emphasis_, GPA 3.59
+## More Info
 
 ### Skills
 
 |---|---|
 | **Mechanical** | SolidWorks · Mechanical Design · Rapid Prototyping · Actuator Sizing |
-| **Electrical & Electronics** | KiCAD · PCB Design · Embedded Systems · Sensor Integration · Mechatronics |
-| **Software** | Python · C++ · MATLAB · ROS2 · Git |
-| **Research & Methods** | Experimental Design · System Identification · Data Analysis · Statistical Analysis · Technical Communication |
+| **Electrical & Electronics** | Mechatronics · Sensor Integration ·  Embedded Systems · KiCAD · PCB Design · Soldering |
+| **Software** | Python · C++ · MATLAB · ROS2 · R · Git |
+| **Research & Methods** | Experimental Design · Data Acquisition · System Identification · Data Analysis · Statistical Analysis · Technical Communication · DMMs and Oscilloscopes · Motion Capture |
+
+### Education
+**MS Mechanical Engineering**, University of Utah, 2024 <br>
+_Research-focused, Robotics Track_, GPA 3.62 <br>
+
+
+**BS Mechanical Engineering**, University of Utah, 2022 <br>
+_Robotics and Control Emphasis_, GPA 3.59
 
 ### Research
 - [Wearable Sensor Development, MDPI sensors](https://www.mdpi.com/1424-8220/25/10/3245), first author. I've described this work at a high-level [here](/pages/prior-work/velostat.html)
 - [Evaluation of Aerosol Containment Hood, Ergonomics in Design](https://journals.sagepub.com/doi/abs/10.1177/10648046261429139), with my write-up of my involvement in this work [here](/pages/prior-work/ucover.html)
 
 ### Courses
-Continuing Education
+
+#### Continuing Education
 - Technical Drawing Interpretation (ASME)
 - Finite Element Analysis (Self-Study, _Ongoing_)
   - Daryl Logan's _A First Course in the Finite Element Method_, 5th ed.
   - Abaqus Knowledge Base Articles and Tutorials 
 
-Graduate School
+#### Graduate School
 - Intro to Robot Control
 - Haptics
 - Design of Experiments
@@ -87,7 +91,7 @@ Graduate School
 - Machine Learning
 - Wearable Robotics
 
-Undergraduate
+#### Undergraduate
 - Intro to Robotics
 - Control (Classical and State-Space Representations)
 - Object-Oriented Programming for Engineers (C++ and Python)

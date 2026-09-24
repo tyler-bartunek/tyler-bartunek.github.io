@@ -27,6 +27,10 @@
 
       <p>{{ site.description | default: site.github.project_tagline }}</p>
 
+      <a href="https://github.com/tyler-bartunek" class="btn">View My GitHub Profile</a><br>
+      <a href="https://linkedin.com/in/tyler-bartunek" class="btn">Connect on LinkedIn</a><br>
+      <br>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">☰ Menu</button>
       {% include sidebar.html %}
 
       {% if site.github.is_project_page %}
@@ -61,6 +65,15 @@
     </footer>
   </div>
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var toggle = document.getElementById('navToggle');
+    var header = document.querySelector('header');
+    toggle.addEventListener('click', function () {
+      header.classList.toggle('nav-open');
+    });
+  });
+</script>
 </body>
 
 </html>
