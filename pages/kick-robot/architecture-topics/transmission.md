@@ -1,5 +1,13 @@
 ---
 layout: default
+title: Module Data Transmission
+breadcrumb:
+  - title: Home
+    url: /index.html
+  - title: KICK Overview
+    url: /pages/kick-robot/overview.html
+  - title: Architecture
+    url: /pages/kick-robot/architecture.html
 ---
 ## Transmission To/From Modules
 

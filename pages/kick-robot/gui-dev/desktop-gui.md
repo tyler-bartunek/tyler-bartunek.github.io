@@ -1,8 +1,16 @@
 ---
 layout: default
+title: Desktop Application
+breadcrumb:
+  - title: Home
+    url: /index.html
+  - title: KICK Overview
+    url: /pages/kick-robot/overview.html
+  - title: Architecture
+    url: /pages/kick-robot/architecture.html
 ---
 
-<a href="/pages/kick-robot/overview.html">Back to Overview</a> <br>
+<!-- <a href="/pages/kick-robot/overview.html">Back to Overview</a> <br> -->
 
 ## Desktop GUI
 

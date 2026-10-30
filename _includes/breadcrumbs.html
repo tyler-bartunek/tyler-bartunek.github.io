@@ -1,0 +1,24 @@
+{% assign trail = page.breadcrumb | default: site.data.trails[page.trail] %}
+{% if trail %}
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  {% for crumb in trail %}
+    {% if crumb.children %}
+      <details class="crumb">
+        <summary>{{ crumb.title }}</summary>
+        <ul>
+          {% if crumb.url %}
+            <li><a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a></li>
+          {% endif %}
+          {% for child in crumb.children %}
+            <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% else %}
+      <a href="{{ crumb.url | relative_url }}">{{ crumb.title }}</a>
+    {% endif %}
+    <span aria-hidden="true">/</span>
+  {% endfor %}
+  <span aria-current="page">{{ page.title }}</span>
+</nav>
+{% endif %}

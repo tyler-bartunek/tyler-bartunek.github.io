@@ -1,8 +1,12 @@
 ---
 layout: default
+title: Architecture
+breadcrumb:
+  - title: Home
+    url: /index.html
+  - title: KICK Overview
+    url: /pages/kick-robot/overview.html
 ---
-
-<a href="/pages/kick-robot/overview.html">Back to Overview</a><br>
 
 ## Architecture
 

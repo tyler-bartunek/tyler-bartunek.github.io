@@ -9,7 +9,7 @@ layout: default
 <figcaption style="font-size: 0.85em; color: #666;">Webscraping and data analysis yield insights into a popular cycling challenge. Photo by <a href="https://unsplash.com/@segerfredo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Frederik Rosar</a> on <a href="https://unsplash.com/photos/a-person-riding-a-bike-on-a-mountain-F_sGPBDM1FI?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.</figcaption>
 </figure>
 
-<strong>Outcomes: </strong> Peer-reviewed publication in [Nature Scientific Reports](https://www.nature.com/articles/s41598-023-29435-w). <br> 
+<strong>Outcomes: </strong> Acknowledged in peer-reviewed publication in [Nature Scientific Reports](https://www.nature.com/articles/s41598-023-29435-w). <br> 
 <strong>Status: </strong> Concluded involvement in 2022 ahead of work in H-CHAR lab. <br>
 <strong>Skills: </strong> Python, Data Collection and Analysis, Research
 

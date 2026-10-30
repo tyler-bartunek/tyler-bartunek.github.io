@@ -1,9 +1,17 @@
 ---
 layout: default
+title: Configurations in ROS
+breadcrumb:
+  - title: Home
+    url: /index.html
+  - title: KICK Overview
+    url: /pages/kick-robot/overview.html
+  - title: Architecture
+    url: /pages/kick-robot/architecture.html
 ---
 
-[Back to Overview]({% link pages/kick-robot/overview.md %}) <br>
-[Back to Architecture]({% link pages/kick-robot/architecture.md %}) <br>
+<!-- [Back to Overview]({% link pages/kick-robot/overview.md %}) <br>
+[Back to Architecture]({% link pages/kick-robot/architecture.md %}) <br> -->
 
 ## Writing Custom Configuration Files in ROS
 
