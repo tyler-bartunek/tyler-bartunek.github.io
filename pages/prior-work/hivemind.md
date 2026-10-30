@@ -1,5 +1,9 @@
 ---
 layout: default
+title: Haptic Drones
+breadcrumb: 
+  - title: Home
+    url: /index.html
 ---
 
 ## Haptic Interface for Drone Swarm Control

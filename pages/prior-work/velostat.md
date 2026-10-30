@@ -1,5 +1,9 @@
 ---
 layout: default
+title: Velostat Force Sensing
+breadcrumb: 
+  - title: Home
+    url: /index.html
 ---
 
 ## Velostat Force Sensing

@@ -1,5 +1,9 @@
 ---
 layout: default
+title: Everesting
+breadcrumb: 
+  - title: Home
+    url: /index.html
 ---
 
 ## Using ML to Tackle a Cycling Challenge

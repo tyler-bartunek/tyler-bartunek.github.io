@@ -1,5 +1,9 @@
 ---
 layout: default
+title: U-COVER
+breadcrumb: 
+  - title: Home
+    url: /index.html
 ---
 
 ## Motion-Capture-Based Ergonomics Analysis of Containment Hood 

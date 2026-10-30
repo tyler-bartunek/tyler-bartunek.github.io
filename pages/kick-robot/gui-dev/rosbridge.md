@@ -12,7 +12,7 @@ breadcrumb:
     url: /pages/kick-robot/gui-dev/desktop-gui.html
 ---
 
-<a href="/pages/kick-robot/overview.html">Back to Overview</a> <br>
+<!-- <a href="/pages/kick-robot/overview.html">Back to Overview</a> <br> -->
 
 ## Connecting to Bots Over Rosbridge
 
